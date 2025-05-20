@@ -35,10 +35,7 @@ Command
 
 ```bash
 query {
-  getAccount(accountId: 2) {
-    name
-    email
-  }
+  getNameByAccountId(accountId: 1)
 }
 ```
 
